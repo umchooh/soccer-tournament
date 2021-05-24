@@ -1,0 +1,88 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
+html {
+    position: relative;
+    font-size: 16px;
+    min-height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+a {
+    text-decoration: none;
+
+}
+a, a:active, a:focus {
+    outline: none;
+}
+a:hover {
+    color:black;
+    font-weight: bold;
+
+}
+h1 {
+    font-size: 4em;
+}
+h2{
+    font-size: 1em;
+}
+.bg {
+    background-image: url('../images/vienna-reyes-qCrKTET_09o-unsplash.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(75%);
+    content: " ";
+
+}
+.index-text {
+    font-size:2.5em;
+}
+.modal-header {
+    justify-content: center;
+}
+.vs {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+/*Tournament Form */
+.tournament-form{
+    font-size: 1em;
+}
+
+/*Match List*/
+.table-header{
+    font-size: 2em;
+}
+.trow-text {
+    font-size: 1.3em;
+}
+
+/*Team Member List*/
+.team-link{
+    font-size: 1.5em;
+}
+.team-header{
+    font-size: 2em;
+    font-weight: bold;
+}
+.player-header {
+    font-size: 1.5em;
+}
+
+/*footer*/
+footer {
+    /*position: absolute;
+    bottom: 0;*/
+    width: 100%;
+    height: 50px;
+}
+
+/*
+Reference:
+Photo by <a href="https://unsplash.com/@viennachanges?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vienna Reyes</a> on <a href="https://unsplash.com/s/photos/soccer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+*/
